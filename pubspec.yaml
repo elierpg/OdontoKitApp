@@ -1,0 +1,58 @@
+name: odontokit
+description: Guía esencial para dentistas. Explora todas las herramientas dentales con imágenes detalladas y descripciones precisas de su propósito. Optimiza tu práctica clínica y garantiza un tratamiento de calidad para tus pacientes.
+
+version: 1.0.7+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  glowstone: ^0.0.2
+  lottie: ^3.1.2
+  package_info_plus: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#607D8BFF"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/animations/under_construction.json
+    - assets/logo.png
+    - assets/complementario/
+    - assets/setclasificacion/
+    - assets/activomanualocortantesdemano/
+    - assets/activorotatorio/
+    - assets/separacion/
+    - assets/separacionmatrices/
+    - assets/endodoncia/
+    - assets/basesintermedias/
+    - assets/amalgama/
+    - assets/aislamientoabsoluto/
+    - assets/aislamientorelativo/
+    - assets/aislamientoquimico/
+    - assets/en_construccion/
+    - assets/ortodoncia/
+
+  fonts:
+    - family: Vibur
+      fonts:
+        - asset: assets/Vibur-Regular.ttf
